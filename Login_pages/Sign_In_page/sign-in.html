@@ -7,34 +7,47 @@
     <link rel="stylesheet" href="sign-in.css">
 </head>
 <body>
-    <header>
-        
-    </header>
+    <section class="mobilescreen">
+   <header>
+        <a class="backbtn" href="../../index.html">↩</a>
+      </header>
     <main>
-        <section class="main-body">
         <section class="first">
             <h1>Welcome back ! 👋</h1>
 <p>Sign in to access your personalized habit tracking experience.</p>
         </section>
-       <section class="second">
-        <label for="Email">
-        <h4>Email</h4></label>
-        <input type="email" id="Email" placeholder="📤Email" class="email-box">
-       </section>
- <section class="third">
-    <label for="Password">
-        <h4>Password</h4></label>
-        <input type="password" id="Password" placeholder="🔒Password" class="password-box">
-       </section>
+        <!-- Input section .................................................................. -->
+
+          <section>
+            <label for="Email"><h2 class="lableh2">Email</h2></label>
+            <div class="entemail">
+              <input
+                type="email"
+                id="Email"
+                class="intbox"
+                placeholder="📩 Email....."
+                required
+              />
+            </div>
+            <label for="Password"><h2 class="lableh2">Password .</h2></label>
+            <div class="entpass">
+              <input
+                type="password"
+                id="Password"
+                class="intbox"
+                placeholder="🔒 Password "
+              />
+            </div>
+          </section>
        <section>
         <div class="box1">
             <span>
            <input type="checkbox" class="ch-box" id="ch"/>
            <label for="ch">Remember me</label></span>
-           <span class="para1">Forgot Password ?</p></span></div>
+           <span class="forgot_txt"><a href="#">Forgot Password ?</a></span></div>
        
        </section>
-       <div class="orli"> ------------------------- OR -------------------------</div>
+       <div class="orli"> -------------------------- OR -------------------------</div>
        <section class="optio">
             <div class="ctn google">Continue With Google</div>
             <div class="ctn microsoft">Continue With Microsoft</div>
@@ -43,7 +56,7 @@
           <div>
             <a href="#" class="sign-in">Sign in</a>
           </div>
-        </section>
-    </main>
+        </main>
+    </section>
 </body>
 </html>

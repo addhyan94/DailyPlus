@@ -1,36 +1,44 @@
-.main-body{
-    width:360px;
-    min-height:100vh;
-    margin:0 auto;
-    background: white;
-    border: 1.5px solid black;
-    margin:0px;
-    padding:10px;
-}
-
+body {
+        margin: 0px;
+        background: #ddd;
+      }
+.mobilescreen {
+        border: 1px dotted black;
+        width: 360px;
+        min-height: 100vh;
+        margin: 0 auto;
+        background: white;
+      }
+.backbtn {
+        border: none;
+        background-color: white;
+        font-size: large;
+        border-radius: 20%;
+        margin: 10px 5px;
+        text-decoration: none;
+        color: black;
+      }
 p{
     color:grey;
 }
 
-.para1{
+.forgot_txt a{
+  text-decoration: none;
     color:rgb(128, 0, 128);
 }
-h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.email-box{
-    padding: 10px 15px 10px 15px;
-    width:89%;
-}
-
-.password-box{
-    padding: 10px 15px 10px 15px;
-    width:89%;
-}
-
-
-
+   .lableh2 {
+        cursor: pointer;
+        color: var(--textcolor);
+        margin: 0px;
+        font-size: larger;
+      }
+      .intbox {
+        border: 0.5px solid rgba(0, 0, 0, 0.311);
+        margin: 8px 0px;
+        height: 30px;
+        width: 90%;
+        border-radius: 8px;
+      }
 
 .box1{
     margin-top:15px;
@@ -40,12 +48,13 @@ h4{
 
 .orli{
         text-align: center;
-        margin-left: -20px;
+        
         margin-bottom: 12px;
         margin-top:20px;
       }
 
 .ctn{
+    margin-left: 20px;
         margin-top:17px;
         border:1px solid grey;
         border-radius:30px;
@@ -57,6 +66,7 @@ h4{
          cursor: pointer;
       }
       .sign-in{
+        margin-left: 20px;
        color: white;
       text-decoration: none;
       display: flex;
