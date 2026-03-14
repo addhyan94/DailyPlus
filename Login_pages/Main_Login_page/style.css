@@ -34,7 +34,7 @@ body{
     width:6em;
     border-radius:10em;
     align-self: center;
-    background-image: url("/Assets/logo.png");
+    background-image: url("../../Assets/logo.png");
     background-size: contain;
     background-color: #e8e8e8;
     margin: 1em;
