@@ -14,9 +14,12 @@ body {
         background-color: white;
         font-size: large;
         border-radius: 20%;
-        margin: 10px 5px;
+        margin: 15px 8px;
         text-decoration: none;
         color: black;
+      }
+       .mainitm {
+        margin-left: 16px;
       }
 p{
     color:grey;
