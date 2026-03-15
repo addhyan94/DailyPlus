@@ -3,7 +3,7 @@ body {
         background: #ddd;
       }
 .mobilescreen {
-        border: 1px dotted black;
+        /* border: 1px dotted black; */
         width: 360px;
         min-height: 100vh;
         margin: 0 auto;
