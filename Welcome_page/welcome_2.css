@@ -16,7 +16,7 @@
  }
 
  .ig {
-     background-image: url("Assets/Welcome_2_page.png");
+     background-image: url("../Assets/Welcome_2_page.png");
      background-size: cover;
      background-repeat: no-repeat;
      width: 360px;
