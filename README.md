@@ -10,3 +10,13 @@ Figma link: https://www.figma.com/design/nOIVadiRPaahb2AODYvDaG/Habitly---Habit-
 
 #font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 sabhi pr ye font use kroo
+
+Header me Back Button .. Copy pase all pages 
+ <header>
+            <div class="back">
+                <svg width="40" height="40" viewport="0 0 24 24">
+                    <line x1="7" y1="12" x2="18" y2="12" stroke="rgb(44 44 44)" stroke-width="2" />
+                    <polyline points="10 8 6 12 10 16" fill="none" stroke="rgb(44 44 44)" stroke-width="2" />
+                </svg>
+            </div>
+        </header>
